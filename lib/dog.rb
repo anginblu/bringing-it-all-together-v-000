@@ -50,7 +50,7 @@ class Dog
        dog_row = dog[0]
        dog_new = Dog.new(dog_row[0], dog_row[1], dog_row[2])
      else
-       dog_new = self.create(name, breed)
+       dog_new = self.create(name: name, breed: breed)
      end
      dog_new
    end
