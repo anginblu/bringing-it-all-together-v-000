@@ -62,4 +62,6 @@ class Dog
      self.all.bsearch{|dog| dog.name == name}
    end
 
+   def update
+
 end
