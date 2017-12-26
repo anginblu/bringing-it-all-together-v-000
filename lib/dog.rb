@@ -33,7 +33,7 @@ class Dog
 
   def self.create(name:, breed:)
     self.new(name: name, breed: breed)
-    self.save
+    save
   end
 
   def self.all
